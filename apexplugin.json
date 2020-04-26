@@ -1,0 +1,34 @@
+{
+    "name": "APEX Vanta.js Plug-in",
+    "version": "1.0",
+    "description": "This Plug-in brings Vanta.js animations easy to your APEX app. WebGL makes the animations much prettier and more CPU efficient than CSS or SVG animations. E.g. Pimp your login screen with a very nice sky flight.",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action", "responsive", "effects", "animation", "vantajs"],
+    "homepage": "https://github.com/RonnyWeiss/APEX-Vanta-js-Plugin",
+    "bugs": {
+        "url": "https://github.com/RonnyWeiss/APEX-Vanta-js-Plugin/issues",
+        "email": "wronny@gmx.de"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Ronny Weiß",
+        "email": "wronny@gmx.de",
+        "twitter": "ronny_weiss_",
+        "donationUrl": "https://www.paypal.me/RonnyW1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RonnyWeiss/APEX-Vanta-js-Plugin.git"
+    },
+    "oracle": {
+        "versions": ["12.1.0.1", "12.2.0.1", "18.4.0.0", "19.0.0.0.0"],
+        "apex": {
+            "versions": ["5.1.3", "18.1.0.00.45", "18.2.0.00.12", "19.1.0.00.15", "19.2.0.00.18"],
+            "plugin": {
+                "internalName": "RW.APEX.VANTA.JS.PLUGIN",
+                "type": "dynamic action",
+                "demo": "https://apex.oracle.com/pls/apex/f?p=103428",
+                "previewImage": "https://github.com/RonnyWeiss/APEX-Vanta-js-Plugin/raw/master/screenshot.gif"
+            }
+        }
+    }
+}
